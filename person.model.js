@@ -9,6 +9,11 @@ const PersonSchema = new Schema({
     Identificator: {
         type: Number,
         required: true
+    },
+    Counter_Goose: {
+        type: Number,
+        required: false,
+        default: 0
     }
 })
 
